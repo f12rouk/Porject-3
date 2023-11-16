@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.containr{
+    background-image:linear-gradient(#000000cc, #000000b9),url(imgs/pexels-photo-3184323.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+     overflow: hidden;
+     position: relative;
+}
+header{
+    background-color: #fff;   
+}
+span{
+    background-color: yellow;
+    border-radius: 7px;
+    padding: 8px 8px;
+}
+ .containr header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 0 3rem;
+    width:100%;
+}
+ul li{
+    display: inline-block;
+    margin: 2rem 0;
+}
+ul li a{
+    color: #000000;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+}
+ul li a:hover{
+    color:rgba(214, 228, 27, 0.637);
+    transition: 0.5s;
+}
+.bottom{
+    background-color: yellow;
+    padding: 13px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.bottom:hover{
+     background-color: #000000da ;
+     color: #fff;
+     transition: 0.6s;
+}
+.contact{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #fff;
+
+}
+.cvv{
+    color: yellow;
+    background-color: #ffffff00;
+}
+.text{
+    flex-direction: column;
+    text-align: center;
+    margin: 190px 0;
+     
+}
+.text h2{
+    font-size:50px ;
+    gap: 20px;
+}
+.text p{
+    letter-spacing: 1px;
+     margin: 2rem 0;
+}
+.bottom1{
+    background-color: yellow;
+    padding: 15px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+     text-transform: uppercase;
+     margin: 1rem 0;
+}
+.bottom1:hover{
+    background-color: #000000;
+    color: #fff;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+@media  (max-width:950px) {
+    
+    
+}
+ 
